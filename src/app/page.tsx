@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import Form from '@/components/Form';
+import InquiryForm from '@/components/InquiryForm';
 
 export default function Home() {
   return (
     <main className=''>
-      <Form />
+      <InquiryForm />
     </main>
   );
 }
